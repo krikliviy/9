@@ -1,0 +1,37 @@
+Figure
+  + dimention() : int
+  + perimetr() : float | None
+  + square() : float | None
+  + squareSurface() : float | None
+  + squareBase() : float | None
+  + height() : float | None
+  + volume() : float
+
+Triangle : Figure
+  - a : float
+  - b : float
+  - c : float
+  + __init__(a: float, b: float, c: float)
+  + __str__() : str
+
+Rectangle : Figure
+  - a : float
+  - b : float
+  + __init__(a: float, b: float)
+  + __str__() : str
+
+Circle : Figure
+  - r : float
+  + __init__(r: float)
+  + __str__() : str
+
+Ball : Figure
+  - r : float
+  + __init__(r: float)
+  + __str__() : str
+
+Cone : Figure
+  - r : float
+  - h : float
+  + __init__(r: float, h: float)
+  + __str__() : str
